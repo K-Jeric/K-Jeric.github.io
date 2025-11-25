@@ -28,7 +28,7 @@
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
-
+  <link href="assets/css/custom.css" rel="stylesheet">
   <!-- =======================================================
   * Template Name: iPortfolio
   * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
@@ -79,6 +79,23 @@
                 <li><a href="#">Deep Dropdown 4</a></li>
                 <li><a href="#">Deep Dropdown 5</a></li>
               </ul>
+            </li>
+            <li><a href="#">Dropdown 2</a></li>
+            <li><a href="#">Dropdown 3</a></li>
+            <li><a href="#">Dropdown 4</a></li>
+          </ul>
+        </li>
+        <li class="dropdown"><a href="#"><i class="bi bi-menu-button navicon"></i> <span>Papildomai</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <ul>
+            <li><a href="#">Vienas</a></li>
+            <li class="dropdown"><a href="#"><span>Giliau</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ol>
+                <li><a href="#">Papildomos</a></li>
+                <li><a href="#">užduoties</a></li>
+                <li><a href="#">patikrinimui</a></li>
+                <li><a href="#">ir</a></li>
+                <li><a href="#">užskaitymui</a></li>
+              </ol>
             </li>
             <li><a href="#">Dropdown 2</a></li>
             <li><a href="#">Dropdown 3</a></li>
@@ -415,7 +432,41 @@ Be mokslo, labai mėgstu tinklinį – tai sportas, kuris mane motyvuoja, suteik
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="700">
+        <table class="services-table">
+          <thead>
+            <tr>
+              <th>Paslauga</th>
+              <th>Aprašymas</th>
+              <th>Kaina</th>
+              <th>Trukmė</th>
+            </tr>
+          </thead>
 
+          <tbody>
+            <tr>
+              <td>Grafikų kūrimas</td>
+              <td>Naudojant MatLab sugeneruoti grafiką pagal jūsų užduotį</td>
+              <td>100 €</td>
+              <td>2–4 d.</td>
+            </tr>
+
+            <tr>
+              <td>SEO optimizacija</td>
+              <td>Puslapio greičio, raktažodžių ir struktūros optimizavimas</td>
+              <td>150 €</td>
+              <td>3–5 d.</td>
+            </tr>
+
+            <tr>
+              <td>Elektroninių prietaisų taisymas</td>
+              <td>Jūsų sugedusių elektroninių prietaisų taisymas, valymas, optimizavimas. Kaina priklauso nuo prietaiso bei darbų kiekio.</td>
+              <td>80 €</td>
+              <td>1 savaitė</td>
+            </tr>
+          </tbody>
+        </table>
+
+        
         <h3 class="mt-4 mb-3">Media Examples</h3>
 
               <!-- Video file -->
@@ -664,7 +715,7 @@ Be mokslo, labai mėgstu tinklinį – tai sportas, kuris mane motyvuoja, suteik
         <!-- You can delete the links only if you've purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        Designed by <a id='link' href="https://bootstrapmade.com/">BootstrapMade</a>
       </div>
     </div>
 
